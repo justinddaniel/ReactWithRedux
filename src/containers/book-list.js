@@ -16,3 +16,8 @@ export default class Booklist extends Component {
     )
   }
 }
+
+
+//container is a component that has direct access to the state produced by Redux
+//React and Redux are two separate libraries. react-redux melds them together.
+//only the most parent component that uses a particular state needs to connect to Redux. 
