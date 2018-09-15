@@ -1,16 +1,9 @@
-import React from 'react';
-import { Component } from 'react';
-
-import BookList from '../containers/book-list';
-import BookDetail from '../containers/book-detail';
+import React, { Component } from 'react';
 
 export default class BookDetail extends Component {
   render() {
     return (
-      <div>
-        <BookList />
-        <BookDetail />
-      </div>
+      <div>Book Detail!</div>
     );
   }
 }
